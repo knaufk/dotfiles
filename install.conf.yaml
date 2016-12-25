@@ -3,3 +3,4 @@
       path: i3/config 
       create: true
     ~/.xinitrc: xinitrc
+    ~/.bashrc: bashrc
