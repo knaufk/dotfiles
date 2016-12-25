@@ -1,2 +1,4 @@
 *.swp
 *.*~
+aws/credentials
+exercism.json
