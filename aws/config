@@ -1,0 +1,14 @@
+[profile bigdata]
+region=eu-central-1
+output=json
+
+[profile bigdata_uk]
+region=eu-west-1
+output=json 
+
+[profile private]
+output = json
+region = eu-central-1
+[default]
+output = json
+region = eu-west-1

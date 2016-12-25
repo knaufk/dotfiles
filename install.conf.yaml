@@ -7,4 +7,5 @@
     ~/.bash_aliases: bash_aliases 
     ~/.config/terminator/config: terminator/config
     ~/.ansible.cfg: ansible.cfg
-    ~/.gitconfig: gitconfig        
+    ~/.gitconfig: gitconfig
+    ~/.aws/config: aws/config        
