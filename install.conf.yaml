@@ -4,4 +4,5 @@
       create: true
     ~/.xinitrc: xinitrc
     ~/.bashrc: bashrc
+    ~/.bash_aliases: bash_aliases 
     ~/.config/terminator/config: terminator/config
