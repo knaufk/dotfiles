@@ -10,6 +10,8 @@ alias "c=xclip"
 alias "v=xclip -o"
 alias "cs=xclip -selection clipboard"
 alias "vs=xclip -o -selection clipboard"
-alias "pyhton=python"
+
 alias prettyjson='python -m json.tool'
 
+alias tngvpn_up='nmcli con up "OpenVPN TNG (old)"'
+alias tngvpn_down='nmcli con down "OpenVPN TNG (old)"'
