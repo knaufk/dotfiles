@@ -11,3 +11,4 @@
     ~/.aws/config: 
       path: aws/config
       create: true 
+    ~/.taskrc: taskrc        
