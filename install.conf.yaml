@@ -8,4 +8,6 @@
     ~/.config/terminator/config: terminator/config
     ~/.ansible.cfg: ansible.cfg
     ~/.gitconfig: gitconfig
-    ~/.aws/config: aws/config        
+    ~/.aws/config: 
+      path: aws/config
+      create: true 
