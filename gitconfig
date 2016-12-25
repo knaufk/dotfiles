@@ -1,0 +1,17 @@
+[user]
+	email = konstantin.knauf@tngtech.com
+	name = Konstantin Knauf
+[push]
+	default = simple
+
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+	purr = pull
+	up = !git pull --rebase && git push
+	stup = !git stash && git up && git stash pop
+	amend = commit --amend
+	newtry = checkout HEAD
+	standup = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --since 'yesterday' --author 'Konstantin Knauf' --all
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+	st = status -sb
