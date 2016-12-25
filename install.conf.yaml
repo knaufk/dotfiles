@@ -6,3 +6,4 @@
     ~/.bashrc: bashrc
     ~/.bash_aliases: bash_aliases 
     ~/.config/terminator/config: terminator/config
+    ~/.ansible.cfg: ansible.cfg        
