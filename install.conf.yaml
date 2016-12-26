@@ -11,4 +11,8 @@
     ~/.aws/config: 
       path: aws/config
       create: true 
+    ~/.aws/credentials:
+      path: aws/credentials
+      create: true
+    ~/.exercism.json: exercism.json
     ~/.taskrc: taskrc        
