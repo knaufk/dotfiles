@@ -15,4 +15,5 @@
       path: aws/credentials
       create: true
     ~/.exercism.json: exercism.json
-    ~/.taskrc: taskrc        
+    ~/.taskrc: taskrc
+    ~/.i3status.conf: i3status.conf   
