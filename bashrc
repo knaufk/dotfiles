@@ -104,8 +104,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#Autojump Config
-. /usr/share/autojump/autojump.sh
+#Git Bash Completion
+source /etc/bash_completion.d/git-completion.bash
+
+#Make VIM Default Editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 #Setup for AWS Cli
 export AWS_CONFIG_FILE=$HOME/.aws/config
@@ -113,9 +117,11 @@ export EC2_INI_PATH=/etc/ansible/ec2.ini
 
 #Virtualenvwrapper
 export WORKON_HOME=~/Envs
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
 
 export NVM_DIR="/home/kknauf/.nvm"
 
+export JAVA_HOME=/usr/lib/jvm/default
+
 #TaskWarrior
-source /usr/local/share/doc/task/scripts/bash/task.sh
+source /usr/share/doc/task/scripts/bash/task.sh

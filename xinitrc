@@ -4,7 +4,12 @@
 #
 # Executed by startx (run your window manager from here)
 
-exec i3 --force-xinerama
+xrandr --output eDP1 --mode 2560x1440
+#xrandr --newmode "2560x1440_33.00"  162.77  2560 2688 2960 3360  1440 1441 1444 1468  -HSync +Vsync
+#xrandr --addmode HDMI1 2560x1440_33.00
+#xrandr --output HDMI1 --mode "2560x1440_33.00" --left-of eDP1
+
+exec i3
 
 if [[ -f ~/.extend.xinitrc ]];then
 	. ~/.extend.xinitrc
