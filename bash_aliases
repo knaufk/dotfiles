@@ -13,5 +13,8 @@ alias "vs=xclip -o -selection clipboard"
 
 alias prettyjson='python -m json.tool'
 
-alias tngvpn_up='nmcli con up "OpenVPN TNG (old)"'
-alias tngvpn_down='nmcli con down "OpenVPN TNG (old)"'
+alias connect_tng='nmcli con up "OpenVPN TNG"'
+alias disconnect_tng='nmcli con down "OpenVPN TNG"'
+alias hdmi_left='~/.screenlayout/hdmi_left.sh'
+alias hdmi_right='~/.screenlayout/hdmi_right.sh'
+alias one_screen='~/.screenlayout/one_screen.sh'

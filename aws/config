@@ -12,3 +12,7 @@ region = eu-central-1
 [default]
 output = json
 region = eu-west-1
+[profile service_zone_analysts]
+region = eu-central-1
+[profile analysts]
+region = eu-central-1

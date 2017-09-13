@@ -1,3 +1,19 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_inactive_bg_color = "#ffffff"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
 [profiles]
-	[[default]]
-		show_titlebar = false
+  [[default]]
+    copy_on_selection = True
+    cursor_color = "#aaaaaa"
+    font = Fixed 24
+    show_titlebar = False

@@ -56,8 +56,18 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+
+source /etc/bash_completion.d/git-completion.bash
+source .git-prompt.sh
+
+RED="\033[0;31m"
+YELLOW="\033[0;33m"
+GREEN="\033[0;32m"
+BLUE="\033[0;34m"
+WHITE="\033[0;37m"
+
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+	PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\[$RED\]\$(__git_ps1)\[$WHITE\]\$ "
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -104,8 +114,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export PATH=$PATH:/opt/mat/
+
 #Git Bash Completion
-source /etc/bash_completion.d/git-completion.bash
 
 #Make VIM Default Editor
 export VISUAL=vim
@@ -125,3 +136,4 @@ export JAVA_HOME=/usr/lib/jvm/default
 
 #TaskWarrior
 source /usr/share/doc/task/scripts/bash/task.sh
+export FLINK_DIR=~/Documents/GithubProjects/flink/
