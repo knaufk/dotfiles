@@ -1,0 +1,7 @@
+- pacaur:
+        - thunar
+        - python-virtualenvwrapper
+        - backintime
+        - aws-cli
+        - intellij-idea-ultimate-edition
+        - python-virtualenv
