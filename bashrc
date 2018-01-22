@@ -1,7 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -57,7 +56,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 
-source /etc/bash_completion.d/git-completion.bash
+source /usr/share/bash-completion/completions/git
 source .git-prompt.sh
 
 RED="\033[0;31m"
@@ -114,9 +113,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH=$PATH:/opt/mat/
-
-#Git Bash Completion
+# Add stuff to PATH
+export PATH=$PATH:/home/knaufk/bin
 
 #Make VIM Default Editor
 export VISUAL=vim
@@ -127,8 +125,8 @@ export AWS_CONFIG_FILE=$HOME/.aws/config
 export EC2_INI_PATH=/etc/ansible/ec2.ini
 
 #Virtualenvwrapper
-export WORKON_HOME=~/Envs
-#source /usr/local/bin/virtualenvwrapper.sh
+export WORKON_HOME=~/python_envs
+source /usr/bin/virtualenvwrapper.sh
 
 export NVM_DIR="/home/kknauf/.nvm"
 
@@ -136,4 +134,3 @@ export JAVA_HOME=/usr/lib/jvm/default
 
 #TaskWarrior
 source /usr/share/doc/task/scripts/bash/task.sh
-export FLINK_DIR=~/Documents/GithubProjects/flink/
