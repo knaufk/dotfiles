@@ -1,4 +1,7 @@
 - pacaur:
+        - meld
+        - python-pip 
+        - ansible
         - thunar
         - python-virtualenvwrapper
         - backintime
@@ -15,3 +18,13 @@
         - freemind
         - maven
         - keepass
+        - okular
+        - google-chrome
+        - libreoffice-fresh 
+        - libreoffice-fresh-de
+        - jre8-openjdk-headless 
+        - jre8-openjdk 
+        - jdk8-openjdk
+        - openjdk8-doc 
+        - openjdk8-src
+        - packer-io
