@@ -1,3 +1,4 @@
+alias calendar='cal -y --monday'
 # Some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
