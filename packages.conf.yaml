@@ -1,4 +1,9 @@
 - pacaur:
+        - docker-compose
+        - ruby
+        - sbt
+        - pandoc
+        - xclip
         - meld
         - python-pip 
         - ansible
