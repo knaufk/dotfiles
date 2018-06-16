@@ -1,4 +1,7 @@
 - link: 
+    ~/.zshrc:
+      path: zshrc
+      create: true
     ~/.i3/config: 
       path: i3/config 
       create: true

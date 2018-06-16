@@ -5,8 +5,8 @@
 # Executed by startx (run your window manager from here)
 
 
-xrandr --newmode "2560x1440-33.00"  162.77  2560 2688 2960 3360  1440 1441 1444 1468  -HSync +Vsync
-xrandr --addmode HDMI1 "2560x1440-33.00"
+exec xrandr --newmode "2560x1440-33.00"  162.77  2560 2688 2960 3360  1440 1441 1444 1468  -HSync +Vsync
+exec xrandr --addmode HDMI1 "2560x1440-33.00"
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap

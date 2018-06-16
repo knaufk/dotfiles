@@ -1,4 +1,14 @@
 - pacaur:
+        - p7zip
+        - calibre
+        - npm
+        - oh-my-zsh-git
+        - zsh
+        - zsh-completions
+        - shellcheck
+        - bluez
+        - bluez-utils
+        - pulseaudio
         - docker-compose
         - ruby
         - sbt
