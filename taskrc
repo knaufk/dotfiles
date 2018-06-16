@@ -41,7 +41,3 @@ context.tng=pro:tng
 context.tng.intern=pro:tng.intern
 context.tng.dap=pro:tng.dap
 taskd.key=\/home\/knaufk\/.task\/knaufk.key.pem
-taskd.certificate=\/home\/knaufk\/.task\/knaufk.cert.pem
-taskd.server=tasks.tngtech.com:53589
-taskd.credentials=TNG\/Konstantin Knauf\/983ee8ed-c34b-4678-b28e-c102a836d53d
-taskd.trust=allow all
