@@ -1,4 +1,7 @@
 - link: 
+    ~/.config/polybar:
+      path: polybar
+      create: true
     ~/.zshrc:
       path: zshrc
       create: true
@@ -19,4 +22,3 @@
       create: true
     ~/.exercism.json: exercism.json
     ~/.taskrc: taskrc
-    ~/.i3status.conf: i3status.conf   

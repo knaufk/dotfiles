@@ -1,4 +1,5 @@
 - pacaur:
+        - polybar-git
         - p7zip
         - calibre
         - npm
