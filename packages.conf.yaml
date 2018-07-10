@@ -1,4 +1,19 @@
 - pacaur:
+        - zoom
+        - slack-desktop
+        - virtualbox
+        - linux41-virtualbox-host-modules
+        - virtual-box-host-dkms
+        - bluez-utils
+        - bluez
+        - minikube
+        - polkit-kde-agent
+        - etcher
+        - google-cloud-sdk
+        - kubernetes-helm
+        - kubectl-bin
+        - spotify
+        - nerd-fonts-complete
         - polybar-git
         - p7zip
         - calibre
