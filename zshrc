@@ -77,6 +77,8 @@ plugins=(
   docker-compose
   virtualenvwrapper
   taskwarrior
+  kubectl
+  web-search
 )
 
 
@@ -118,3 +120,5 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.bash_aliases
 
 export EDITOR=/usr/bin/vim
+
+export JAVA_HOME=/usr/lib/jvm/default
