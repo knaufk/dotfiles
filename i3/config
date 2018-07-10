@@ -191,5 +191,11 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 
 exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id nitrogen --restore
 
 focus_follows_mouse no
+
+bar {
+    font pango: M+ 1m, Awesome, Ionicons, 17
+    status_command i3status
+}
